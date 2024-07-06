@@ -1,0 +1,15 @@
+* {
+    box-sizing: border-box;
+}
+
+img {
+    border-radius: 50%;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0 auto;
+}
