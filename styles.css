@@ -1,15 +1,131 @@
 * {
-    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
-img {
+html,
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+#wrapper {
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+}
+
+#profilepic {
+    width: 20%;
     border-radius: 50%;
 }
 
-body {
-    font-family: 'Open Sans', sans-serif;
+h1 {
+    color: white;
+}
+
+h2 {
+    font-size: 16pt;
+    color: #797979;
+    background-color: #cfcfcf;
+    margin-bottom: 20px;
+    margin-top: 32px;
+    padding-left: 20px;
+}
+
+#title {
+    font-size: 12pt;
+    background-color: black;
+}
+
+header {
     display: flex;
-    flex-direction: column;
     justify-content: space-between;
-    margin: 0 auto;
+    padding: 50px;
+    background-color: black;
+    align-items: center;
+}
+
+main {
+    flex: 1 0 auto;
+    background-color: rgba(238, 238, 238, 0.918);
+    padding-bottom: 20px;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: black;
+    padding: 20px;
+    align-items: center;
+}
+
+a {
+    color: #3A3E34;
+}
+
+
+i {
+    color: #bebebe;
+}
+
+#rslogo {
+    height: 60px;
+    filter: invert(1);
+}
+
+p,
+ul,
+code {
+    padding-left: 32px;
+}
+
+p {
+    line-height: 1.5em;
+    text-align: justify;
+    padding-right: 32px;
+
+}
+
+#white {
+    font-weight: bold;
+    color: white;
+}
+
+code {
+    font-size: 120%;
+    color: rgba(83, 83, 83, 0.884);
+}
+
+#ghlogo {
+    height: 60px;
+}
+
+nav {
+    background-color: yellow;
+    font-family: Verdana, Tahoma, sans-serif;
+    height: 40px;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-right: 20px;
+    margin: auto;
+    list-style: none;
+    text-transform: uppercase;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    line-height: 1.5em;
 }
