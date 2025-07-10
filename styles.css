@@ -110,6 +110,9 @@ nav {
     font-family: Verdana, Tahoma, sans-serif;
     height: 40px;
 }
+nav a:hover {
+    color: grey;
+}
 
 nav ul {
     display: flex;
